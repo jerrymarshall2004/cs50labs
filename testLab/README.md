@@ -1,4 +1,7 @@
 # Terminal
+
+{% video https://www.youtube.com/watch?v=oHg5SJYRHA0 %}
+
 ![Terminal](https://raw.githubusercontent.com/jmichalenko/cs50labs/2019/testLab/command_line_practice.gif)
 
 In this lab you will learn:
