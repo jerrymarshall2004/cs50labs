@@ -1,5 +1,6 @@
 # Terminal
 ![Terminal](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/terminal/command_line_practice.gif)
+
 In this lab you will learn:
 
 - How to use a command-line interface
