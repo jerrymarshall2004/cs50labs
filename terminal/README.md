@@ -119,8 +119,13 @@ Now it's your turn to practice the terminal commands you just learned. Try using
 ## Check your work
 
 -To check your work make sure you are in the root directory by pressing cd, then enter.  Type ls enter.  You should see apt1 in blue.
--Then enter the following command check50 jmichalenko/labchecks/main/terminal
-
+-Then enter the following command:
+```
+check50 jmichalenko/labchecks/main/terminal
+```
 ## Submit your work
 
--After you are happy with your check50 results, submit your work by entering the following: submit50 jmichalenko/labchecks/main/terminal
+-After you are happy with your check50 results, submit your work by entering the following: 
+```
+submit50 jmichalenko/labchecks/main/terminal
+```
