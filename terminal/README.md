@@ -115,3 +115,12 @@ soap
 ## Go Ahead Now and Experiment
 
 Now it's your turn to practice the terminal commands you just learned. Try using the `cd` and `ls` commands as you navigate through the directories in your workspace. Create a few new files and directories and then move these files from one directory to another.
+
+## Check your work
+
+-To check your work make sure you are in the root directory by pressing cd, then enter.  Type ls enter.  You should see apt1 in blue.
+-Then enter the following command check50 jmichalenko/labchecks/main/terminal
+
+## Submit your work
+
+-After you are happy with your check50 results, submit your work by entering the following: submit50 jmichalenko/labchecks/main/terminal
