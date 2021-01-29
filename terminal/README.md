@@ -22,7 +22,7 @@ Before we start, you may notice three text files open in the code/text editor on
 Under the tab that says `>_ Terminal`, is a window with a `$` prompt. This is the terminal window where you can type commands. Let's start by exploring your workspace. Your workspace contains folders (ofter called directories) and files, in the same way as your computer does. Directories can be nested in other directories, just as you have folders stored in other folders on your computer.
 
 {% spoiler "Hint" %}
-{% video https://www.youtube.com/watch?v=oHg5SJYRHA0 %}
+{% video https://www.youtube.com/watch?2f_wffq6Ur0 %}
 
 {% endspoiler %}
 
