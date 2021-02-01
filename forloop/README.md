@@ -56,12 +56,17 @@ Here we start our counting variable, `j`, at 1 and execute the loop until `j` is
 
 ## Your Turn
 
-Modify the code on the right to add up the numbers from 1 to 10, using either the supplied for loop or creating your own. Store the total in the variable named `total`.
+Modify the code on the right to add up the numbers from 1 to 10, using either the supplied for loop or creating your own. Store the total in the variable named `total`. Your printf should read "The totatl of the numbers from 1 to 10 is: ___ "
 
 {% spoiler "Hint" %}
 
 Keep in mind that you can use the value of `i` in your calculation. You can also change the loop so start at one and end when `i <= 10`. This gives you a value which can be added to `total` during each iteration.
 
 {% endspoiler %}
+
+##Hand in your work by typing the following:
+```
+submit50 jmichalenko/labchecks/main/forloop
+```
 
 [For more info, download the CS50 Loops Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/loops.pdf)
