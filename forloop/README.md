@@ -64,7 +64,7 @@ Keep in mind that you can use the value of `i` in your calculation. You can also
 
 {% endspoiler %}
 
-##Hand in your work by typing the following:
+## Hand in your work by typing the following:
 ```
 submit50 jmichalenko/labchecks/main/forloop
 ```
