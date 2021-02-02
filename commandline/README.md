@@ -83,7 +83,8 @@ The program on the right uses `get_string()` to get user input. Edit the program
 
 1. Modify the main function to `int main(int argc, string argv[])`
 1. Check that the argument count is correct (`argc` should equal 2, meaning there is one argument at the command line after the program name)
-    1. If `argc != 2` print an error message
+    1. If `argc != 2` print an error message.  Your error message should read "You need to provide the name in the command line.\n"
+    
     1. Else print out `hello, ` followed by `argv[1]`
 
 {% endspoiler %}  
@@ -91,3 +92,8 @@ The program on the right uses `get_string()` to get user input. Edit the program
 Remember to compile your program and test it. Be sure to test for all cases: with one command-line argument after calling the program name, with more than one argument, and with no arguments.
 
 [For more info, download the CS50 Command-Line Interaction Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/command-line_interaction.pdf)
+## Submit your work
+Submit your work by typing in the following:
+```
+submit50 jmichalenko/labchecks/main/commandline
+```
