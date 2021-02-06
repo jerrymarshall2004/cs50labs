@@ -82,7 +82,7 @@ You can declare additional variables if you want to and use functions in any of 
 Try adding a `printf` inside of the `bin_to_dec(binary)` function to see if the calculation is working correctly.
 {% endspoiler %}
 
-
-
+{% spoiler "Logical Error Hint" %}
+If you notice, the math.h library is included in the header.  Try looking up pow(x,y) function in the math.h library.  Use a counter to increase the value.
 
 [For more info, download the CS50 Bugs and Debugging Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/bugs_and_debugging.pdf)
