@@ -84,5 +84,6 @@ Try adding a `printf` inside of the `bin_to_dec(binary)` function to see if the 
 
 {% spoiler "Logical Error Hint" %}
 If you notice, the math.h library is included in the header.  Try looking up pow(x,y) function in the math.h library.  Use a counter to increase the value.
+{% endspoiler %}
 
 [For more info, download the CS50 Bugs and Debugging Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/bugs_and_debugging.pdf)
