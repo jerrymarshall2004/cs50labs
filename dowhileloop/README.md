@@ -39,4 +39,19 @@ Be sure to test your program with numbers in this range, numbers outside of this
 
 You may have to use a logical operator, such as `&&` (AND) or `||` (OR) to combine two conditions for this.
 
+## Style Check
+Be sure to check your style:
+
+```
+style50 dowhile.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/dowhileloop
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/dowhileloop
+```
+
 [For more info on loops, download the CS50 Loops Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/loops.pdf)
