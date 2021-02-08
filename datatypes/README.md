@@ -174,7 +174,7 @@ Finally **execute** your program with:
 Before turning in your solution, be sure to test the correctness of your program with check50, by executing the below:
 
 ```
-check50 <slug goes here>
+check50 jmichalenko/labchecks/main/dataypes
 ```
 
 ### Style
@@ -192,7 +192,7 @@ When your program compiles and passes the style test, you have completed Data Ty
 To submit your code, execute
 
 ```
-submit50 <slug>
+submit50 jmichalenko/labchecks/main/dataypes
 ```
 
 Your submission should be graded for corretness and style withing a few minutes on [cs50.me](https://cs50.me/) -->
