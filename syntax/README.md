@@ -106,4 +106,21 @@ When style50 outputs:
 
 you are done! Congratulations, you've completed the Syntax Lab!
 
+## Check your work
+
+-To check your work enter the following command:
+```
+style50 syntax.c
+```
+Then
+```
+check50 jmichalenko/labchecks/main/syntax
+```
+## Submit your work
+
+-After you are happy with your check50 results, submit your work by entering the following: 
+```
+submit50 jmichalenko/labchecks/main/syntax
+```
+
 [For more info, download the CS50 Syntax Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/syntax.pdf)
