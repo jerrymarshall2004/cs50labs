@@ -133,5 +133,19 @@ The program on the right is partially completed. It asks for user input and assi
 Note: Boolean operators will be discussed in the Boolean Expressions Lab.
 {% endspoiler %}
 -->
+## Style Check
+Be sure to check your style:
+
+```
+style50 operators
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/operators
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/operators
+```
 
 [Download the CS50 Reference Sheet on Operators](https://cs50.harvard.edu/ap/2020/assets/pdfs/operators.pdf)
