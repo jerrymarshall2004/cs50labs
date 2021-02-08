@@ -73,4 +73,19 @@ Also, remember that the smallest value that an int can hold is -2<sup>31</sup> w
 
 {% endspoiler %}
 
+## Style Check
+Be sure to check your style:
+
+```
+style50 while.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/while
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/while
+```
+
 [For more info on loops, download the CS50 Loops Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/loops.pdf)
