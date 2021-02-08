@@ -64,9 +64,20 @@ Keep in mind that you can use the value of `i` in your calculation. You can also
 
 {% endspoiler %}
 
-## Hand in your work by typing the following:
+## Style Check
+Be sure to check your style:
+
+```
+style50 forloop.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/forloop
+```
+## Submit your work
 ```
 submit50 jmichalenko/labchecks/main/forloop
+```
 ```
 
 [For more info, download the CS50 Loops Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/loops.pdf)
