@@ -109,10 +109,7 @@ you are done! Congratulations, you've completed the Syntax Lab!
 ## Check your work
 
 -To check your work enter the following command:
-```
-style50 syntax.c
-```
-Then
+
 ```
 check50 jmichalenko/labchecks/main/syntax
 ```
