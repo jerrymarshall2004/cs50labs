@@ -78,10 +78,19 @@ and then test it several times by executing:
 ./magic
 ```
 
-Finally when all seems good, check your style with:
+## Style Check
+Be sure to check your style:
 
 ```
 style50 magic.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/magic
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/magic
 ```
 
 [For more info, download the CS50 Principles of Good Design Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/principles_of_good_design.pdf)
