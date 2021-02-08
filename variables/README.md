@@ -187,6 +187,19 @@ Since we want to get into good habits early, check that your indentation, and sp
 ```
 style50 variables.c
 ```
+## Check your work
+
+-To check your work enter the following command:
+
+```
+check50 jmichalenko/labchecks/main/variables
+```
+## Submit your work
+
+-After you are happy with your check50 results, and style50 results, submit your work by entering the following: 
+```
+submit50 jmichalenko/labchecks/main/variables
+```
 
 [For more info on variables, download the CS50 Variables Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/variables.pdf)
 
