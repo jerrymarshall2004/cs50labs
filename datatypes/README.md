@@ -163,8 +163,6 @@ Finally **execute** your program with:
 ./datatypes
 ```
 
-<!--
-
 {% next %}
 
 ## Testing
@@ -195,6 +193,6 @@ To submit your code, execute
 submit50 jmichalenko/labchecks/main/dataypes
 ```
 
-Your submission should be graded for corretness and style withing a few minutes on [cs50.me](https://cs50.me/) -->
+Your submission should be graded for corretness and style withing a few minutes on https://submit.cs50.io/
 
 [For more info on data types, download the CS50 Data Types Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/data_types.pdf)
