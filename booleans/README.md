@@ -172,4 +172,19 @@ Complete the code on the right by adding one or more conditional statements to p
 
 Then test your code by entering inputs that are ints, floats, strings, and ints but that are outside the expected range (like 1000)!
 
+## Style Check
+Be sure to check your style:
+
+```
+style50 booleans.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/booleans
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/booleans
+```
+
 [For more info, download the CS50 Boolean Expressions Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/boolean_expressions.pdf)
