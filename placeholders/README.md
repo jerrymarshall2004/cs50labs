@@ -111,3 +111,20 @@ style50 placeholders.c
 ```
 
 It's good to get into good habits now, so when you start writing longer and more complex programs, you will know how to style your code properly. Code that is properly styled, is much easier to debug!
+
+### Correctness
+
+Before turning in your solution, be sure to test the correctness of your program with check50, by executing the below:
+
+```
+check50 jmichalenko/labchecks/main/placeholders
+```
+
+## Submit
+
+To submit your code, execute
+
+```
+submit50 jmichalenko/labchecks/main/placeholders
+```
+
