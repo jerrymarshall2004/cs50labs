@@ -172,7 +172,7 @@ Finally **execute** your program with:
 Before turning in your solution, be sure to test the correctness of your program with check50, by executing the below:
 
 ```
-check50 jmichalenko/labchecks/main/dataypes
+check50 jmichalenko/labchecks/main/datatypes
 ```
 
 ### Style
