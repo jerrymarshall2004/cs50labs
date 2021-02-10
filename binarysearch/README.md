@@ -18,6 +18,7 @@ With **binary search**, we are dividing the problem in half with each iteration,
 The pseudocode for binary search could look like this:
 
 ```
+Find a number "k"
 set min = 0 and max = n - 1
 repeat while min <= max
     find middle of array
