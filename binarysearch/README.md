@@ -21,7 +21,7 @@ The pseudocode for binary search could look like this:
 Find a number "k"
 set min = 0 and max = n - 1
 repeat while min <= max
-    find middle of array
+    find middle of array (min + max)/2
     if k is less than array[middle]
         set max to middle - 1
     else if k is greater than array[middle]
