@@ -53,10 +53,19 @@ Change the program on the right to use exit codes, rather than an if...else stat
 
 Then compile and test your program, with the correct and incorrect number of command-ine arguments. Try typing in `echo $?` at the `$` after executing your program both ways to further that you've implemented exit codes correctly!
 
-And don't forget to check your style with:
+## Style Check
+Be sure to check your style:
 
 ```
 style50 exit.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/exit
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/exit
 ```
 
 [For more info, download the CS50 Exit Code Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/exit_codes.pdf)
