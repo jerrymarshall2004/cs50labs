@@ -92,8 +92,17 @@ The program on the right uses `get_string()` to get user input. Edit the program
 Remember to compile your program and test it. Be sure to test for all cases: with one command-line argument after calling the program name, with more than one argument, and with no arguments.
 
 [For more info, download the CS50 Command-Line Interaction Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/command-line_interaction.pdf)
+## Style Check
+Be sure to check your style:
+
+```
+style50 commandline.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/commandline
+```
 ## Submit your work
-Submit your work by typing in the following:
 ```
 submit50 jmichalenko/labchecks/main/commandline
 ```
