@@ -86,4 +86,19 @@ Notice the mapping between chars and ints in the [ASCII table](https://study.cs5
 
 {% endspoiler %}
 
+## Style Check
+Be sure to check your style:
+
+```
+style50 typecasting.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/typecasting
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/typecasting
+```
+
 [For more info on typecasting, download the CS50 typecasting Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/typecasting.pdf)
