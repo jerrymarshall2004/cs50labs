@@ -115,4 +115,19 @@ Why do you think we're printing the value `i + 1` for the day?
 
 Make sure to compile and test both programs!
 
+## Style Check
+Be sure to check your style:
+
+```
+style50 array.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/array
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/array
+```
+
 [Download our CS50 Reference sheet on Arrays and Strings](https://cs50.harvard.edu/ap/2020/assets/pdfs/arrays_and_strings.pdf)
