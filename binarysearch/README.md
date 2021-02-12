@@ -51,5 +51,19 @@ bool bin_search(int arr[], int n, int n);
 
 This tells us that the function has a return type of `bool`, meaning that the function must return `true` or `false`. When the function is called, as it is from the `main()` function, there are three arguments: `arr` the name of the array we are searching through, `n`, the element we are searching for, and `n`, the number of elements in the array.
 
+## Style Check
+Be sure to check your style:
+
+```
+style50 binary.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/binarysearch
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/binarysearch
+```
 
 [Download our CS50 Reference sheet on Binary Search](https://cs50.harvard.edu/ap/2020/assets/pdfs/binary_search.pdf)
