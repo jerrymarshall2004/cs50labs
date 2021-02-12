@@ -61,9 +61,9 @@ We access each `student` in the `students` array the usual way with `[i]`, and u
 
 As you may have seen in lecture, David demonstrates the use of **structs** in the program `struct1.c`. The program is included on the right for your review. Our familiar `for` loop is used here to iterate through the `students` array, and access each **member** in each of the element of `students`.
 
-Note that in David's program, he created a **header** file, named `struct.h`, to define his `student` data type. This file is then included at the top of `struct1.c`. This is a common technique used by C programmers as programs become longer and more complex.
+Note that in David's program, he created a **header** file, named `struct.h`, to define his `student` data type. This file is then included at the top of `struct1.c`. This is a common technique used by C programmers as programs become longer and more complex. However, you can just have the contents of this file written above your main function, instead of in a separate file.  (Remember the purpose of the char * in David's file is just to replace string.)
 
-Your job is to complete the program, `mystruct.c`, and create your own datatype, add data to a few members, and then print them out. You do not need to define your structure in a header file.
+Your job is to complete the program, `students.c`, and create your own datatype, add data to a few members, and then print them out. (You do not need to define your structure in a separate header file - just include the structure definition at the top, above the main function.)
 
 The basic definition of a new data type is already there, however please change the name of your new structure from `name_goes_here` to something of your liking.
 
