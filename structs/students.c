@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <cs50.h>
-//////////////////////////////////////////////////////////////////////////////////////////////////
-typedef struct   //This outlines a custom data type, a structure, sometimes called an object in other languages
+
+////
+typedef struct   //This outlines a custom data type, a structure, sometimes called an object in other languages. 
+                 //Sometimes this is included in a separate file to keep the code "clean." But for this check please keep in main file.
 {
     
 //write the code to define fields in the structure for: name, studentNum, grade, courseAverage
@@ -9,7 +11,8 @@ typedef struct   //This outlines a custom data type, a structure, sometimes call
 }
 student;  //It is common to forget the ; after the structure name, watch out for this
 
-/////////////////////////////////////////////////////////////////////////////////////////////////
+////
+
 int main(void)
 {    
     //prompt user for number of students, store this in a variable
