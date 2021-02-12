@@ -50,5 +50,18 @@ The `print_array()` function is given to you to print out the array after you've
 
 Nothing much you can do to optimize here, as we were able to do with bubble sort.
 
+## Style Check
+Be sure to check your style:
 
+```
+style50 insertion.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/insertionsort
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/insertionsort
+```
 [Download our CS50 Reference sheet on Insertion Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/insertion_sort.pdf)
