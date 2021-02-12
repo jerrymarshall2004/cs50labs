@@ -113,5 +113,18 @@ If you are really stuck, try to write some pseudocode first.
 
 {% endspoiler %}
 
+## Style Check
+Be sure to check your style:
 
+```
+style50 functions.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/functions
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/functions
+```
 [For more information on functions download our CS50 Functions Reference Sheet](https://cs50.harvard.edu/ap/2020/assets/pdfs/functions.pdf)
