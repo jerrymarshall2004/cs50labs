@@ -16,6 +16,6 @@ int summation(int n)
 
 int main(void)
 {
-    int n = get_int("Enter a number: ");
+    int n = get_int("Enter a number of 1 or more: ");
     printf("The sum of 1 through %i is: %i\n", n, summation(n));
 }
