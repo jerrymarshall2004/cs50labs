@@ -65,10 +65,29 @@ Note that in David's program, he created a **header** file, named `struct.h`, to
 
 Your job is to complete the program, `students.c`, and create your own datatype, add data to a few members, and then print them out. (You do not need to define your structure in a separate header file - just include the structure definition at the top, above the main function.)
 
-The basic definition of a new data type is already there, however please change the name of your new structure from `name_goes_here` to something of your liking.
+The basic definition of a new data type is already there, fill in the fields to finish defining the structure.
 
-You may declare either a single variable or an array using your new data type. If you use an array, you'll want to use a `for` loop to add and print the data for each member.
+Use a for loop and an array of the type struct that you defined to prompt the user for data.  
 
-Be sure to test your code with valid data, invalid data, and corner cases!
+Finally, print out the contents of the array.
+
+{% spoiler "Doug's Video on Structures"%}
+Consider watching Doug's video on structures if you are stuck.
+{% video https://youtu.be/N5pA7RvvQDg %}
+{% end spoiler}
+
+## Style Check
+Be sure to check your style:
+
+```
+style50 students.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/structures
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/structures
 
 [Download our CS50 Reference sheet on Structures and Encapsulation](https://cs50.harvard.edu/ap/2020/assets/pdfs/structures_and_encapsulation.pdf)
