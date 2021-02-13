@@ -89,5 +89,5 @@ check50 jmichalenko/labchecks/main/structures
 ## Submit your work
 ```
 submit50 jmichalenko/labchecks/main/structures
-
+```
 [Download our CS50 Reference sheet on Structures and Encapsulation](https://cs50.harvard.edu/ap/2020/assets/pdfs/structures_and_encapsulation.pdf)
