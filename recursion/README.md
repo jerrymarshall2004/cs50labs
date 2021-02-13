@@ -79,4 +79,19 @@ Consider watching Doug's Video if you are stuck on the idea of recursion.
 {% video https://youtu.be/mz6tAJMVmfM %}
 {% endspoiler %}
 
+## Style Check
+Be sure to check your style:
+
+```
+style50 recursion.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/recursion
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/recursion
+```
+
 [Download our CS50 Reference sheet on Recursion](https://cs50.harvard.edu/ap/2020/assets/pdfs/recursion.pdf)
