@@ -71,10 +71,10 @@ Use a for loop and an array of the type struct that you defined to prompt the us
 
 Finally, print out the contents of the array.
 
-{% spoiler "Doug's Video on Structures"%}
-Consider watching Doug's video on structures if you are stuck.
+{% spoiler "Doug's Video on Structures" %}
+Consider watching Doug's Video if you are stuck on the idea of structures.
 {% video https://youtu.be/N5pA7RvvQDg %}
-{% end spoiler}
+{% endspoiler %}
 
 ## Style Check
 Be sure to check your style:
