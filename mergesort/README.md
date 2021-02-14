@@ -56,4 +56,10 @@ Finally, call the `merge()` function, passing it the name of the array, the left
 
 {% endspoiler %}
 
+{% spoiler "Brian's Video on Mergesort%}
+Consider watching Doug's video on Mergsort.  Here is also a code along that might help if you are stuck.
+{% video https://youtu.be/Ns7tGNbtvV4 %}
+{% video https://youtu.be/vGeHOUIFLes %}
+{% endspoiler %}
+
 [Download our CS50 Reference sheet on Merge Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/merge_sort.pdf)
