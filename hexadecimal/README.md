@@ -35,4 +35,19 @@ After prompting the user for a hexadecimal number, the program iterates through 
 
 {% endspoiler %}
 
+## Style Check
+Be sure to check your style:
+
+```
+style50 hexadecimal.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/hexadecimal
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/hexadecimal
+```
+
 [Download our CS50 Reference sheet on Hexadecimal](https://cs50.harvard.edu/ap/2020/assets/pdfs/hexadecimal.pdf)
