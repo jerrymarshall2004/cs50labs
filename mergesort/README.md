@@ -62,4 +62,19 @@ Consider watching Doug's video on Mergsort.  Here is also a code along that migh
 {% video https://youtu.be/vGeHOUIFLes %}
 {% endspoiler %}
 
+## Style Check
+Be sure to check your style:
+
+```
+style50 mergesort.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/mergesort
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/mergesort
+```
+
 [Download our CS50 Reference sheet on Merge Sort](https://cs50.harvard.edu/ap/2020/assets/pdfs/merge_sort.pdf)
