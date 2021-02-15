@@ -94,7 +94,7 @@ Since we can store a variety of media in files, such as audio, text, movies and 
 
 ## Your Turn
 
-Complete the program on the right that takes two command line arguments — a source file and a destination file — and copies the contents of the source to the destination. Specifically, we have provided the first page of Anna Karenina, in `anna.txt`, for you to copy. Create a new file `copy.txt` for your copy. Follow the commented pseudocode in the file.
+Complete the program on the right that takes two command line arguments — a source file and a destination file — and copies the contents of the source to the destination. Specifically, we have provided the first page of Anna Karenina, in `anna.txt`, for you to copy. Create a new file `copy.txt` for your copy. Follow the commented pseudocode in the file. **Note, you may need to click the folder icon to see the newly copied text in the copy.txt file.
 
 {% spoiler "Hint" %}
 
@@ -104,5 +104,20 @@ Complete the program on the right that takes two command line arguments — 
 4. Use `fprintf()` to write to `copy.txt` one `char` at a time. You may use something like `fprintf(dest, "%c", c)` to do this.
 
 {% endspoiler %}
+
+## Style Check
+Be sure to check your style:
+
+```
+style50 fileio.c
+```
+## Check Your program before submitting
+```
+check50 jmichalenko/labchecks/main/fileio
+```
+## Submit your work
+```
+submit50 jmichalenko/labchecks/main/fileio
+```
 
 [Download our CS50 Reference sheet on File I/O](https://cs50.harvard.edu/ap/2020/assets/pdfs/file_io.pdf)
