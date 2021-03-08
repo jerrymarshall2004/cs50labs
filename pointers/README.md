@@ -62,8 +62,6 @@ Above, the *p is declared as a pointer, to the address of the variable n.  So af
 
 {% next %}
 
-Try running the toupper.c file.  What happens?  Both stings become captialized.  This doesn't make sense?  But what has happened is that the memory allocated for s has been set to the value of t.  Or in other words the pointer. 
-
 ## Your Turn
 
 Try running the pointers.c file.  What happens?  Both stings become captialized.  This doesn't make sense?  One thing to remember is that a string is an array of characters.  So by making T = S, we are saying the pointer for T should point to the memory allocated for S. Then when T[0] is set to upper, it is changing the 1st character in the memory to upper, which again inadvertently is the same memory.
