@@ -19,7 +19,7 @@ int main(void)
 }
 ```
 In our computer’s memory, there are now 4 bytes somewhere that have the binary value of 50, labeled n:
-![Merge_Sort](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/mergesort/merge_sort.gif)
+![Merge_Sort](https://raw.githubusercontent.com/jmichalenko/cs50labs/2020/pointers/memory picture.png)
 
 {% next %}
 
