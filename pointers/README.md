@@ -19,9 +19,22 @@ int main(void)
 }
 ```
 In our computer’s memory, there are now 4 bytes somewhere that have the binary value of 50, labeled n:
+
 ![Merge_Sort](https://raw.githubusercontent.com/jmichalenko/cs50labs/2020/pointers/memory.png)
 
 {% next %}
+It turns out that, with the billions of bytes in memory, those bytes for the variable n starts at some unique address that might look like 0x12345678.
+
+In C, we can actually see the address with the & operator, which means “get the address of this variable”:
+```
+#include <stdio.h>
+
+int main(void)
+{
+    int n = 50;
+    printf("%p\n", &n);
+}
+```
 
 {% next %}
 
