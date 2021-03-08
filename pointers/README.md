@@ -38,6 +38,8 @@ int main(void)
 This would print out the address, maybe something like 0x12345678.
 
 The address of a variable is called a pointer, which we can think of as a value that “points” to a location in memory. 
+![Merge_Sort](https://raw.githubusercontent.com/jmichalenko/cs50labs/2020/pointers/pointing.png)
+
 
 {% next %}
 
