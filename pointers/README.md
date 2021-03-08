@@ -54,6 +54,10 @@ int main(void)
    printf("%i\n", *p);
 }
 ```
+{%spoiler "What would the above code print?" %}
+This code will print the address of n first (something similar to 0x12345678), and the value that is located at the address 50.
+{% endspoiler}
+
 Above, the *p is declared as a pointer, to the address of the variable n.  So after the pointer is declared, we can use the value %p/p to print the memory address; and also access the value stored at the address %i/*p.
 
 {% next %}
