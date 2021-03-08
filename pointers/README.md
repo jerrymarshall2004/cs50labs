@@ -66,11 +66,31 @@ Try running the toupper.c file.  What happens?  Both stings become captialized. 
 
 ## Your Turn
 
+Try running the pointers.c file.  What happens?  Both stings become captialized.  This doesn't make sense?  One thing to remember is that a string is an array of characters.  So by making T = S, we are saying the pointer for T should point to the memory allocated for S. Then when T[0] is set to upper, it is changing the 1st character in the memory to upper, which again inadvertently is the same memory.
 
-{% spoiler "Does your program seem to hang?" %}
+To make a copy of the string, we have to place the new copy in it's own memory.  This is done with the term "malloc" standing for memory allocation. To allocate enough memory for the length of the string a command similar to this could be used:
+```c
+char *t = malloc(strlen(s) + 1);
+```
+{% next %}
 
+After the memory is used, create a for loop that iterates over each character in s, and assigns it to the newly allocated memory of t.
 
-{% endspoiler %}
+```c
+t[i] = s[i];
+```
+Then use the to upper command to change just the first character of t.
+```c
+ t[0] = toupper(t[0]);
+```
+{% next %}
+If the program is run too many times, the memory in your computer can run out, because you are physically reserving it.  To avoid any memory issues, we need to "free" the memory after our program runs by using the following command:
+
+```c
+free(t);
+```
+
+## Modify pointers.c file so that s is printed with lower case, and t is printed with uppercase.
 
 {% spoiler "Some Helper Videos on Pointers & Memory Allocation%}
 Consider watching these videos on pointers. This is a complex topic and will take a bit to wrap your brain around. 
