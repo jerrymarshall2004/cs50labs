@@ -58,7 +58,7 @@ Above, the *p is declared as a pointer, to the address of the variable n.  So af
 
 {% next %}
 
-Try running the toupper.c file.  What happens?  Both 
+Try running the toupper.c file.  What happens?  Both stings become captialized.  This doesn't make sense?  But what has happened is that the memory allocated for s has been set to the value of t.  Or in other words the pointer. 
 
 ## Your Turn
 
