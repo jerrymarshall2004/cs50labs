@@ -6,8 +6,20 @@ In this lab you will learn:
 - How to allocate and free memory
 
 ## What is a Pointer?
-The address of a variable is called a pointer, which we can think of as a value that “points” to a location in memory. The * operator lets us “go to” the location that a pointer is pointing to.
+The physical address of a variable in memory is called a pointer. The * operator lets us “go to” the location that a pointer is pointing to.
 
+For example, we might create a value n, and print it out:
+```
+#include <stdio.h>
+
+int main(void)
+{
+    int n = 50;
+    printf("%i\n", n);
+}
+```
+In our computer’s memory, there are now 4 bytes somewhere that have the binary value of 50, labeled n:
+![Merge_Sort](https://raw.githubusercontent.com/cs50nestm/cs50labs/2019/mergesort/merge_sort.gif)
 
 {% next %}
 
