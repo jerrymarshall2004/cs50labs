@@ -9,7 +9,7 @@ In this lab you will learn:
 The physical address of a variable in memory is called a pointer. The * operator lets us “go to” the location that a pointer is pointing to.
 
 For example, we might create a value n, and print it out:
-```
+```c
 #include <stdio.h>
 
 int main(void)
@@ -25,7 +25,7 @@ In our computer’s memory, there are now 4 bytes somewhere that have the binary
 {% next %}
 It turns out that, with the billions of bytes in memory, those bytes for the variable n starts at some unique address that might look like 0x12345678.
 
-In C, we can actually see the address with the & operator, which means “get the address of this variable”:
+In C, we can actually see the address with the & operator, which means “get the address of this variable”. Notice the placeholder is %p.
 ```c
 #include <stdio.h>
 
