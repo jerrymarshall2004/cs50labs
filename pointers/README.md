@@ -90,7 +90,7 @@ If the program is run too many times, the memory in your computer can run out, b
 free(t);
 ```
 
-## Modify pointers.c file so that s is printed with lower case, and t is printed with uppercase.
+## Modify pointers.c file so that s is printed with lower case, and the first character in t is printed in uppercase.
 
 {% spoiler "Some Helper Videos on Pointers & Memory Allocation%}
 Consider watching these videos on pointers. This is a complex topic and will take a bit to wrap your brain around. 
