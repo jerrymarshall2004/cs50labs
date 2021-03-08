@@ -54,9 +54,11 @@ int main(void)
    printf("%i\n", *p);
 }
 ```
-Above, the *p is declared as a pointer, to the address of the variable n.  So after the pointer is declared, we can use the value %p/p; and also access the value at the address %i/*p.
+Above, the *p is declared as a pointer, to the address of the variable n.  So after the pointer is declared, we can use the value %p/p to print the memory address; and also access the value stored at the address %i/*p.
 
 {% next %}
+
+Try running the toupper.c file.  What happens?  Both 
 
 ## Your Turn
 
