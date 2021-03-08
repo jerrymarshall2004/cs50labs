@@ -69,9 +69,10 @@ Try running the toupper.c file.  What happens?  Both
 {% endspoiler %}
 
 {% spoiler "Some Helper Videos on Pointers & Memory Allocation%}
-Consider watching Doug's video on Mergsort.  Here is also a code along that might help if you are stuck.
+Consider watching these videos on pointers. This is a complex topic and will take a bit to wrap your brain around. 
 {% video https://youtu.be/XISnO2YhnsY %}
 {% video https://youtu.be/9uhSYDY4sxA %}
+{% video https://youtu.be/5VnDaHBi8dM %}
 {% endspoiler %}
 
 ## Style Check
