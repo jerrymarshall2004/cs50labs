@@ -35,6 +35,12 @@ int main(void)
     printf("%p\n", &n);
 }
 ```
+The address of a variable is called a pointer, which we can think of as a value that “points” to a location in memory. 
+
+{% next %}
+
+Some confusing syntax, the * can be used to declare a pointer variable; after it is declared, the * can be used to go to the address ad access the information at the memory location.
+
 
 {% next %}
 
