@@ -61,8 +61,10 @@ The reason this occurs is that the arguments (information) passed to the functio
 
 In other words, the swap function gets its own variables, a and b when they are passed in, that are copies of x and y, and so changing those values don’t change x and y in the main function. Once the function swap returns, the memory it was using is freed for the next function call, and we lose anything we did, other than the return values, and our program goes back to the function that called swap.
 
+![memorylayout](https://raw.githubusercontent.com/jmichalenko/cs50labs/2020/memory/stack.png)
+
 {% next %}
-So how do you use a function to change data in variables in the main function?
+So how do you use a function to change data in variables in the main function? We have to pass the address of the memory, and use pointers to reference the memory in the function.
 
 ## Your Turn
 
