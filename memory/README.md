@@ -66,6 +66,8 @@ In other words, the swap function gets its own variables, a and b when they are 
 {% next %}
 So how do you use a function to change data in variables in the main function? We have to pass the address of the memory, and use pointers to reference the memory in the function.
 
+![memorylayout](https://raw.githubusercontent.com/jmichalenko/cs50labs/2020/memory/pointers.png)
+
 ## Your Turn
 
 
