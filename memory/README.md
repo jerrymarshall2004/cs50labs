@@ -44,3 +44,18 @@ void swap(int a, int b)
     b = tmp;
 }
 ```
+Make and run the file memory.c
+
+{%spoiler "What happens?"}
+
+The program returns
+
+```
+x is 1, y is 2
+x is 1, y is 2
+```
+
+The values did not swap!
+{%end spoiler}
+
+{% next %}
