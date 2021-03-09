@@ -85,7 +85,7 @@ And the syntax to point to the memory could look like this:
 ```
 {%spoiler "Hint" %}
 Don't forget to also change the function prototype before the main function.
-{% endspoiler}
+{% endspoiler %}
 
 ## Style Check
 Be sure to check your style:
