@@ -47,11 +47,14 @@ void swap(int a, int b)
 Make and run the file memory.c
 
 {%spoiler "What happens?"}
+
 The program returns
+
 ```
 x is 1, y is 2
 x is 1, y is 2
 ```
+
 The values did not swap!
 {%end spoiler}
 
@@ -64,26 +67,36 @@ In other words, the swap function gets its own variables, a and b when they are 
 ![memorylayout](https://raw.githubusercontent.com/jmichalenko/cs50labs/2020/memory/stack.png)
 
 {% next %}
+
 So how do you use a function to change data in variables in the main function? We have to pass the address of the memory, and use pointers to reference the memory in the function.
 
 ![memorylayout](https://raw.githubusercontent.com/jmichalenko/cs50labs/2020/memory/pointers.png)
 
 ## Your Turn
+Modify memory.c to pass the address of the memory as arguments to the swap function parameters.  Then use pointers in the swap function to actually change the memory in the main function.
 
-
-
-
+Recall, the syntax to reference memory in c could look like this:
+```
+&x
+```
+And the syntax to point to the memory could look like this:
+```
+*a
+```
+{%spoiler "Hint" %}
+Don't forget to also change the function prototype before the main function.
+{%endspoiler}
 
 ## Style Check
 Be sure to check your style:
 
 ```
-style50 swap.c
+style50 memory.c
 ```
 ## Check Your program before submitting
 ```
-check50 jmichalenko/labchecks/main/swap
+check50 jmichalenko/labchecks/main/memory
 ```
 ## Submit your work
 ```
-submit50 jmichalenko/labchecks/main/swap
+submit50 jmichalenko/labchecks/main/memory
