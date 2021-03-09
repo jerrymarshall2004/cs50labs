@@ -1,7 +1,7 @@
 # Memory
 
 Within our computer’s memory, the different types of data that need to be stored for our program are organized into different sections:
-![memory_layout](https://raw.githubusercontent.com/jmichalenko/cs50labs/2020/memory/memory_layout.png)
+![memorylayout](https://raw.githubusercontent.com/jmichalenko/cs50labs/2020/memory/memory_layout.png)
 
 
 
