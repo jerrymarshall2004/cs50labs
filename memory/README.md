@@ -46,7 +46,7 @@ void swap(int a, int b)
 ```
 Compile and test the file memory, what happens?
 
-{%spoiler "What happens?"%}
+{% spoiler "What happens?" %}
 
 The program returns
 
@@ -56,6 +56,6 @@ x is 1, y is 2
 ```
 
 The values did not swap!
-{%end spoiler%}
+{% endspoiler %}
 
 {% next %}
