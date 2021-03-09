@@ -44,7 +44,7 @@ void swap(int a, int b)
     b = tmp;
 }
 ```
-Make and run the file memory.c
+Compile and test the file memory, what happens?
 
 {%spoiler "What happens?"}
 
