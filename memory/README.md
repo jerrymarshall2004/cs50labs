@@ -44,16 +44,31 @@ void swap(int a, int b)
     b = tmp;
 }
 ```
+Make and run the file memory.c
+
+{%spoiler "What happens?"}
+The program returns
+```
+x is 1, y is 2
+x is 1, y is 2
+```
+The values did not swap!
+{%end spoiler}
+
+{% next %}
+
+The reason this occurs is that the arguments (information) passed to the function are just "copies" of the information from the main function.  The function uses the arguments that are passed to it's parameters, and returns information, but the actually memory that was allocated in the main function remains unchanged.
+
+In other words, the swap function gets its own variables, a and b when they are passed in, that are copies of x and y, and so changing those values don’t change x and y in the main function. Once the function swap returns, the memory it was using is freed for the next function call, and we lose anything we did, other than the return values, and our program goes back to the function that called swap.
+
+{% next %}
+So how do you use a function to change data in variables in the main function?
 
 ## Your Turn
 
 
 
 
-
-{% spoiler "Some Helper Videos on Pointers & Memory Allocation%}
-
-{% endspoiler %}
 
 ## Style Check
 Be sure to check your style:
