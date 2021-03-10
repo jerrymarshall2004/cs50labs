@@ -99,7 +99,20 @@ You should now be able to switch between the branches and see the different vers
 git checkout master
 git checkout MyBioV1
 ```
-You can also check what branches you have by typing:
+You can also check what branches you have:
 ```
 git branch
 ```
+{% video https://youtu.be/PnMkr8ASQcU %}
+
+{% next %}
+
+# Github
+
+Github is a cloud based repository that can store your git files and branches.  You can also add collaborators (we will look at this in another tutorial).
+
+Navigate to github.com, and login (create an account if you havn't already).  In the top right of the screen, there is a + sign.  Click on this and choose add new reop.  Call it MyBio (it can be called anything, but this flows with our example.)  
+
+After you create the repo, you should be able to copy the url for that repo.
+
+{% video https://youtu.be/Hdcf57q3QCY %}
