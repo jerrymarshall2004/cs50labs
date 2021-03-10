@@ -14,4 +14,4 @@ Imagine a situation where you are writing an essay, and you decide to make some 
 
 This is where Git comes in.  Git is a tool that tracks version history.  You have a master timeline, and can create branches off of that timeline.  You can keep the changes on separate branches, or if you decide you like the changes, you can "merge" the changes back to the master timeline.
 
-![gitBranch](https://raw.githubusercontent.com/jmichalenko/cs50labs/2020/pointers/memory.png)
+![gitBranch](https://raw.githubusercontent.com/jmichalenko/cs50labs/2020/pointers/gitTimeline.png)
