@@ -149,8 +149,9 @@ Lets add an additional hobby in the github cloud based editor in the file MyBio.
 
 {% video https://youtu.be/rPT93lAVYfk %}
 
-To avoid any conflicts, always "pull" the repo to your local machine. This will update any cloud based changes onto your local machine.
+__To avoid any conflicts, always "pull" the repo to your local machine. This will update any cloud based changes onto your local machine.  Do this before you start making changes to your local repo.  Otherwise you will get ugly conflicts!__
 
 ```
 git pull origin MyBioV1
 ```
+The changes that were made in the cloud should now be changed in your local repo!
