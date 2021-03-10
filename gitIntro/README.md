@@ -79,4 +79,26 @@ We can check that the change was commited to the master timeline by typing:
 ```
 git log
 ```
+https://youtu.be/tI2H9gLmm0M
 {% next %}
+
+# Creating Branches
+Lets now assume that I want to make a change to my file, that I just want to try out.  Lets make a new branch:
+```
+git checkout -b MyBioV1
+```
+This creates a newbranch off of the master branch.  You should see the new branch name in brackets beside the prompt.
+
+Lets add to the MyBio.txt file by typing in some hobbies.  "Some of my favourite hobbies are swimming, rockclimbing, and hiking."
+
+Go through the same process as we did above adding the file to the staging area, and then commiting the changes to the new branch: git add MyBio.txt, git status, git commit -m"Added Hobbies"
+
+You should now be able to switch between the branches and see the different versions of the MyBio.txt file.
+```
+git checkout master
+git checkout MyBioV1
+```
+You can also check what branches you have by typing:
+```
+git branch
+```
