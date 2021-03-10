@@ -138,3 +138,19 @@ Now go to github and you should see that your MyBio.txt file has been added to t
 {% next %}
 # Pushing Branches
 Now lets puch the branch MyBioV1
+```
+git push origin MyBioV1
+```
+Now when you go back to github, you will notice you have two branches stored in the cloud!
+# Pull Changes from Github
+Now that we know how to push information to Github, we should also know how to make sure cloud based changes are uptodate on our local machine.  Cloud based changes might be made if a collaborater changed something, or if you wanted to make a quick change to a file from the github editor.
+
+Lets add an additional hobby in the github cloud based editor in the file MyBio.txt on branch MyBioV1.
+
+{% video https://youtu.be/rPT93lAVYfk %}
+
+To avoid any conflicts, always "pull" the repo to your local machine. This will update any cloud based changes onto your local machine.
+
+```
+git pull origin MyBioV1
+```
