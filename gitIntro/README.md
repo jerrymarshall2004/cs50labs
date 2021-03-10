@@ -79,7 +79,8 @@ We can check that the change was commited to the master timeline by typing:
 ```
 git log
 ```
-https://youtu.be/tI2H9gLmm0M
+{% video https://youtu.be/tI2H9gLmm0M %}
+
 {% next %}
 
 # Creating Branches
