@@ -31,13 +31,28 @@ __***CS50 IDE already has git installed.  But the instructions below are include
 $ git config --global user.name "FirstName LastName"
 $ git config --global user.email "email@example.com"
 ```
-4.  In the IDE, use mkdir to create a directory calle "MyBio"
+4.  In the IDE, use mkdir to create a directory calle "MyBio".  Make sure to cd into the newly created folder.
+
+```
+mkdir MyBio
+cd MyBio
+```
+
 5.  In this directory, initialize git by typing:
 
 ```
 git init
 ```
-This sets up a hidden folder within your MyBio folder that will keep track of version changes.
-6.  
+This sets up a hidden folder within your MyBio folder that will keep track of version changes.  You should also see (Master) beside your prompt now.
+
+6.  Create a file in your new directory by using the touch command:
+
+```
+touch MyBio.txt
+```
+
+7.  Double click on the file to edit it.  Type in your name, and a fake student number.
+
+{% next %}  
 
 
