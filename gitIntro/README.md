@@ -116,3 +116,25 @@ Navigate to github.com, and login (create an account if you havn't already).  In
 After you create the repo, you should be able to copy the url for that repo.
 
 {% video https://youtu.be/Hdcf57q3QCY %}
+
+Now, we want to link our local git repository with the cloud based github repository.
+
+```
+git remote add origin 'paste your github url here, without quotes.'
+```
+To double check the link worked properly:
+
+```
+git remote show origin
+```
+{% next %}
+# Pushing to GitHub
+Now that our local repo is linked to github, we can push the changes locally to the cloud.
+Lets push the master branch first.
+```
+git push master origin
+```
+Now go to github and you should see that your MyBio.txt file has been added to the cloud based repositiory.
+{% next %}
+# Pushing Branches
+Now lets puch the branch MyBioV1
