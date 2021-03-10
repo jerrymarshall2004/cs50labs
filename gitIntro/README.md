@@ -155,3 +155,7 @@ __To avoid any conflicts, always "pull" the repo to your local machine. This wil
 git pull origin MyBioV1
 ```
 The changes that were made in the cloud should now be changed in your local repo!
+
+# Hand in your work
+To hand this lab in, add jmichalenko as a collaborator to your new github repo.  Settings, Manage access, add collaborator.
+{% video https://youtu.be/tcnOzea-OA8 %}
