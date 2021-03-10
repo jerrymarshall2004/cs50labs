@@ -55,4 +55,28 @@ touch MyBio.txt
 
 {% next %}  
 
+# Git Workflow
+![gitTimeline](https://raw.githubusercontent.com/jmichalenko/cs50labs/2020/gitIntro/gitWorkflow.png)
 
+Git has an interesting workflow.  Once you have initialized the folder (Git init), you need to tell git which files to watch for changes.  You do this with the git add command:
+
+```
+git add MyBio.txt
+```
+This moves the file from the local working directory to a "staging area".
+
+Check to make sure the file was added to the stagging area properly by typing:
+
+```
+git status
+```
+
+After we are happy with some of the changes we've made to the MyBio.txt file, we will need to "commit" this change. When a commit is made, you always need to include a message to indicate what changes were made.
+```
+git commit -m "Added my name and a fake student number."
+```
+We can check that the change was commited to the master timeline by typing:
+```
+git log
+```
+{% next %}
