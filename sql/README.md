@@ -19,31 +19,44 @@ If you notice, in the file tree, there is now an addition file with a .db file e
 SELECT title FROM favorites; 
 ```
 
-We can sort our results:
+## We can sort our results:
+
 ```
 SELECT title FROM favorites ORDER BY title;
 ```
 
-And get a count of the number of times each title appears:
+## And get a count of the number of times each title appears:
 
 ```
 SELECT title, COUNT(title) FROM favorites GROUP BY title;
 ```
-We can even set the count of each title to a new variable, n, and order our results by that, in descending order. Then we can see the top 10 results with LIMIT 10:
+## We can even set the count of each title to a new variable, n, and order our results by that, in descending order. Then we can see the top 10 results with LIMIT 10:
 
 ```
 SELECT title, COUNT(title) AS n FROM favorites GROUP BY title ORDER BY n DESC LIMIT 10;
 ```
-With .schema, we can see how the format for the table for our data is created:
+## With .schema, we can see how the format for the table for our data is created:
 
 ```
 .schema
 ```
+SQL is a language that lets us work with a relational database, an application lets us store data and work with them more quickly than with a CSV.
 
+{% next %}
 
--For example, we created a [Google Form](https://forms.gle/Jtg6Hu466CV7aVBt8) to ask students their favorite TV show and genre of it. We look thorugh the responses, and see that the spreadsheet has three columns: “Timestamp”, “title”, and “genres”:
+# Working with data
 
-![spreadSheets](https://raw.githubusercontent.com/jmichalenko/cs50labs/2020/spreadsheets/spreadsheet.png)
+It turns out that, when working with data, we only need four operations:
+-CREATE
+-READ
+-UPDATE
+-DELETE
+
+In SQL, the commands to perform each of these operations are:
+-INSERT
+-SELECT
+-UPDATE
+-DELETE
 
 
 
