@@ -13,7 +13,33 @@ sqlite> .mode csv
 ```
 sqlite> .import "favoriteTVShows.csv" favorites
 ```
-If you notice, in the file tree, there is now an addition file with a .db file extension.
+If you notice, in the file tree, there is now an addition file with a .db file extension. Now we can use the SQL language to interact with our data.  For example, you can print the titles by typing in the terminal:
+
+```
+SELECT title FROM favorites; 
+```
+
+We can sort our results:
+```
+SELECT title FROM favorites ORDER BY title;
+```
+
+And get a count of the number of times each title appears:
+
+```
+SELECT title, COUNT(title) FROM favorites GROUP BY title;
+```
+We can even set the count of each title to a new variable, n, and order our results by that, in descending order. Then we can see the top 10 results with LIMIT 10:
+
+```
+SELECT title, COUNT(title) AS n FROM favorites GROUP BY title ORDER BY n DESC LIMIT 10;
+```
+With .schema, we can see how the format for the table for our data is created:
+
+```
+.schema
+```
+
 
 -For example, we created a [Google Form](https://forms.gle/Jtg6Hu466CV7aVBt8) to ask students their favorite TV show and genre of it. We look thorugh the responses, and see that the spreadsheet has three columns: “Timestamp”, “title”, and “genres”:
 
