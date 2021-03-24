@@ -81,14 +81,14 @@ cur = conn.cursor()
 Now that you have connected your database, and cursor, you can use sql language commands.  Lets create a table called favouriteSongs, with a column "Band", and another column "Song" :
 
 ```python
-cur.execute('DROP TABLE IF EXISTS Tracks') #This is necessary so you don't accidentally write over an existig table
-cur.execute('CREATE TABLE favouriteSongs (Band TEXT, Song TEXT)')
+cur.execute('DROP TABLE IF EXISTS favoriteSongs') #This is necessary in case a table with same name exists
+cur.execute('CREATE TABLE favoriteSongs (Band TEXT, Song TEXT)')
 ```
 Next, Lets insert two rows in our newly made table:
 ```python
-cur.execute('INSERT INTO favouriteSongs (Band, Song) VALUES (?, ?)',
+cur.execute('INSERT INTO favoriteSongs (Band, Song) VALUES (?, ?)',
     ('ACDC', 'Thunder Struck'))
-cur.execute('INSERT INTO favouriteSongs (title, plays) VALUES (?, ?)',
+cur.execute('INSERT INTO favoriteSongs (title, plays) VALUES (?, ?)',
     ('Led Zepplin', 'Highway to Heaven'))
 ```
 The last step is to commit the changes, and write them to the database file:
@@ -99,7 +99,7 @@ conn.commit()
 Lastly, lets have python print our newly added songs in the terminal:
 
 ```python
-print('Favourite Songs:')
+print('Favorite Songs:')
 cur.execute('SELECT Band, Song FROM favouriteSongs')
 for row in cur:
      print(row)
