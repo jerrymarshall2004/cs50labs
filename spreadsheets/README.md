@@ -32,7 +32,7 @@ Try creating a file called favorites.py, and running the file.
 Maybe we want to do a summary of the number of times people picked a certain TV show.  We can open the file and make a 'dictionary' for the title of each row.
 
 Now, we can use a dictionary to count the number of times we’ve seen each title, with the keys being the titles and the values for each key an integer, tracking how many times we’ve seen that title:
-{%Try it Yourself%}
+
 ```
 import csv
 
