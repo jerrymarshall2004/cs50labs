@@ -47,18 +47,16 @@ SQL is a language that lets us work with a relational database, an application l
 # Working with data
 
 It turns out that, when working with data, we only need four operations:
-
--CREATE
--READ
--UPDATE
--DELETE
+*CREATE
+*READ
+*UPDATE
+*DELETE
 
 In SQL, the commands to perform each of these operations are:
-
--INSERT
--SELECT
--UPDATE
--DELETE
+*INSERT
+*SELECT
+*UPDATE
+*DELETE
 
 
 
