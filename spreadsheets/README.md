@@ -8,6 +8,8 @@ For example, we created a Google Form to ask students their favorite TV show and
 
 ![googlesheets](/spreadsheet.png)
 
+We can download a CSV file from the spreadsheet with “File > Download”, upload it to our IDE, and see that it’s a text file with comma-separated values matching the spreadsheet’s data.
+
 
 
 
