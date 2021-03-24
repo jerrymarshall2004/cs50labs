@@ -114,6 +114,6 @@ Write a python program that keeps a database of your favorite songs, ask the use
 
 {% spoiler "Hint" %}
 In this case you don't want to delete the table if it exists each time, and you don't need to create a new table each time.
-{% end spoiler %}
+{% endspoiler %}
 
 ## Note: I havn't had a chance to write a check/submit for this yet.
