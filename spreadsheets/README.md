@@ -22,7 +22,7 @@ with open("favoriteTVShows.csv", "r") as file:
     for row in reader:
         print(row["title"])
 ```
-Try creating a file called favorites.py, and running the file.
+Try creating a file called favorites.py; open the favoriteTVShows.csv file and print the titles from the csv file in the terminal using the python code.
 
 {% next %}
 
@@ -50,3 +50,4 @@ with open("favoriteTVShows.csv", "r") as file:
 for title, count in counts.items():
     print(title, count, sep=" | ")
 ```
+{% next %}
