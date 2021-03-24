@@ -13,6 +13,7 @@ sqlite> .mode csv
 ```
 sqlite> .import "favoriteTVShows.csv" favorites
 ```
+If you notice, in the file tree, there is now an addition file with a .db file extension.
 
 -For example, we created a [Google Form](https://forms.gle/Jtg6Hu466CV7aVBt8) to ask students their favorite TV show and genre of it. We look thorugh the responses, and see that the spreadsheet has three columns: “Timestamp”, “title”, and “genres”:
 
