@@ -1,12 +1,12 @@
 #Spreadsheets
 
-Most of us are familiar with spreadsheets, rows of data, with each column in a row having a different piece of data that relate to each other somehow.
+-Most of us are familiar with spreadsheets, rows of data, with each column in a row having a different piece of data that relate to each other somehow.
 
-A database is an application that can store data, and we can think of Google Sheets as one such application.
+-A database is an application that can store data, and we can think of Google Sheets as one such application.
 
-For example, we created a Google Form to ask students their favorite TV show and genre of it. We look thorugh the responses, and see that the spreadsheet has three columns: “Timestamp”, “title”, and “genres”:
+-For example, we created a [Google Form](https://forms.gle/Jtg6Hu466CV7aVBt8) to ask students their favorite TV show and genre of it. We look thorugh the responses, and see that the spreadsheet has three columns: “Timestamp”, “title”, and “genres”:
 
-![googlesheets](/spreadsheet.png)
+![spreadSheets](https://raw.githubusercontent.com/jmichalenko/cs50labs/2020/spreadsheets/spreadsheet.png)
 
 We can download a CSV file from the spreadsheet with “File > Download”, upload it to our IDE, and see that it’s a text file with comma-separated values matching the spreadsheet’s data.
 
