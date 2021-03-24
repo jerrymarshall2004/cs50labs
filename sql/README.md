@@ -58,5 +58,5 @@ It turns out that, when working with data, we only need four operations:
 In SQL, the commands to perform each of these operations are:
 
 
-{% next % }
+{% next %}
 
