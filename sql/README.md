@@ -57,10 +57,6 @@ It turns out that, when working with data, we only need four operations:
 
 In SQL, the commands to perform each of these operations are:
 
-- Insert        General Format : INSERT INTO table_name (Column A, Column B) VALUES (Value A, Value B)
-- Select               for     : SELECT (Column A, Column B) From table_name
-- Update              Syntax   : UPDATE table_name SET Column = new_value WHERE column = value
-- Delete                       : DELETE FROM table_name WHERE Column = Value
 
 {% next % }
 
