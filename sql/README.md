@@ -60,3 +60,58 @@ In SQL, the commands to perform each of these operations are:
 
 {% next %}
 
+## Using Python to Create a Database
+
+Lets create a simple python program to keep track of your favorite songs.  Create a new file called favoriteSongs.py
+
+The first thing you have to do is include the sqllite package in your python file:
+```python
+import sqlite3
+```
+Then you tell python to create a database, and create a "cursor" (that will be able to move through the data).
+```python
+conn = sqlite3.connect('favoriteSongs.db')
+cur = conn.cursor()
+```
+
+Now that you have connected your database, and cursor, you can use sql language commands.  Lets create a table called favouriteSongs, with a column "Band", and another column "Song" :
+
+```python
+cur.execute('DROP TABLE IF EXISTS favoriteSongs') #This is necessary in case a table with same name exists
+cur.execute('CREATE TABLE favoriteSongs (Band TEXT, Song TEXT)')
+```
+Next, Lets insert two rows in our newly made table:
+```python
+cur.execute('INSERT INTO favoriteSongs (Band, Song) VALUES (?, ?)',
+    ('ACDC', 'Thunder Struck'))
+cur.execute('INSERT INTO favoriteSongs (title, plays) VALUES (?, ?)',
+    ('Led Zepplin', 'Highway to Heaven'))
+```
+The last step is to commit the changes, and write them to the database file:
+
+```python
+conn.commit()
+```
+Lastly, lets have python print our newly added songs in the terminal:
+
+```python
+print('Favorite Songs:')
+cur.execute('SELECT Band, Song FROM favouriteSongs')
+for row in cur:
+     print(row)
+```
+And finally, close the data base:
+```python
+cur.close()
+```
+## Your Turn
+
+Write a python program that keeps a database of your favorite songs, ask the user for band name, then song name, then print all of the records.  "Here is a list of your favourite songs: "
+
+{% spoiler "Hint" %}
+In this case you don't want to delete the table if it exists each time, and you don't need to create a new table each time.
+{% endspoiler %}
+
+## Note: I havn't had a chance to write a check/submit for this yet.
+
+
