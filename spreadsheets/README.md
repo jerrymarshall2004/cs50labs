@@ -34,6 +34,7 @@ Now, we can use a dictionary to count the number of times we’ve seen each titl
 
 ```python
 import csv
+#Remember dictionaries are declared with {}
 
 counts = {}
 
@@ -45,9 +46,9 @@ with open("favoriteTVShows.csv", "r") as file:
         if title in counts:
             counts[title] += 1
         else:
-            counts[title] = 1
+            counts[title] = 1 #This block checks if the title is already in the dictionary.  If it is count is increased by one.  If it isn't, it is added to the dictionary.
 
 for title, count in counts.items():
-    print(title, count, sep=" | ")
+    print(title, count, sep=" | ") #This prints the title, and number of times it occurs separated by |.
 ```
 {% next %}
