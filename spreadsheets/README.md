@@ -52,6 +52,6 @@ with open("favoriteTVShows.csv", "r") as file:
             
 #This prints the title, and number of times it occurs separated by |.
 for title, count in counts.items():
-    print(title, count, sep=" | ") #This prints the title, and number of times it occurs separated by |.
+    print(title, count, sep=" | ") 
 ```
 {% next %}
