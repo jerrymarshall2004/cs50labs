@@ -1,13 +1,10 @@
 # SQL
 
-In this lab you will learn:
+In this lab you will:
 
-- What is an array
-- How we create and use arrays
-- Why a `for` loop is so useful for arrays and strings
-- We’ll look at a new program in our terminal window, sqlite3, a command-line program that lets us use another language, SQL (pronounced like “sequel”).
+- Look at a new program in our terminal window, sqlite3, a command-line program that lets us use another language, SQL (pronounced like “sequel”).
 
-- We’ll run some commands to create a new database called favorites.db and import our CSV file into a table called “favorites”:
+- Learn how run some commands to create a new database called favorites.db and import our CSV file into a table called “favorites”:
 
 ```
 ~/ $ sqlite3 favorites.db
@@ -24,23 +21,23 @@ If you notice, in the file tree, there is now an addition file with a .db file e
 SELECT title FROM favorites; 
 ```
 
-## We can sort our results:
+**We can sort our results:
 
 ```
 SELECT title FROM favorites ORDER BY title;
 ```
 
-## And get a count of the number of times each title appears:
+**And get a count of the number of times each title appears:
 
 ```
 SELECT title, COUNT(title) FROM favorites GROUP BY title;
 ```
-## We can even set the count of each title to a new variable, n, and order our results by that, in descending order. Then we can see the top 10 results with LIMIT 10:
+**We can even set the count of each title to a new variable, n, and order our results by that, in descending order. Then we can see the top 10 results with LIMIT 10:
 
 ```
 SELECT title, COUNT(title) AS n FROM favorites GROUP BY title ORDER BY n DESC LIMIT 10;
 ```
-## With .schema, we can see how the format for the table for our data is created:
+**With .schema, we can see how the format for the table for our data is created:
 
 ```
 .schema
