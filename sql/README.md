@@ -1,6 +1,7 @@
 # SQL
 
 -We’ll look at a new program in our terminal window, sqlite3, a command-line program that lets us use another language, SQL (pronounced like “sequel”).
+
 -We’ll run some commands to create a new database called favorites.db and import our CSV file into a table called “favorites”:
 
 ```
