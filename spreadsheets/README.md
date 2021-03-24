@@ -55,3 +55,24 @@ for title, count in counts.items():
     print(title, count, sep=" | ") 
 ```
 {% next %}
+
+## Sorting the data
+
+Python has some built in functions that allow you to sort the data from the .csv file.
+
+## Your turn
+Try changing the for loop that prints each line to sort the data.  To do this you need to first define a function that returns the second item in the dictionary:
+
+```python
+def f(item):
+  return item[1]
+```
+Then you need to adjust the for loop to sort by the second item (f), and reverse the order to go from highest to lowest.  
+
+```python
+for title, count in sorted(counts.items(), key=f, reverse=True):
+```
+
+This syntax would only be know by reading the documentation for the python sorted function.  This is included to introduce the idea that you can sort data from an external python file  by opening it, sorting it, and then printing it.
+
+## I havn't had a chance to write a check/submit for this yet.
