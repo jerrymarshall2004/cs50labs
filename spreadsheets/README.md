@@ -1,4 +1,4 @@
-#Spreadsheets
+# Spreadsheets
 
 -Most of us are familiar with spreadsheets, rows of data, with each column in a row having a different piece of data that relate to each other somehow.
 
@@ -10,9 +10,11 @@
 
 We can download a CSV file from the spreadsheet with “File > Download”, upload it to our IDE, and see that it’s a text file with comma-separated values matching the spreadsheet’s data.
 
+## Open a CSV file in Python
+
 Python has a package that allows you to open csv files, and incorporate them into a .py file.  
 
-'''c
+'''p
 import csv
 
 with open("CS50 2019 - Lecture 7 - Favorite TV Shows (Responses) - Form Responses 1.csv", "r") as file:
@@ -23,9 +25,12 @@ with open("CS50 2019 - Lecture 7 - Favorite TV Shows (Responses) - Form Response
 '''
 Try creating a file called favorites.py, and running the file.
 
-{%next%}
+{% next %}
 
-We’re going to open the file and make a 'dictionary' for the title of each row.
+## Analying the Data
+
+Maybe we want to do a summary of the number of times people picked a certain TV show.  We can open the file and make a 'dictionary' for the title of each row.
+
 Now we can use a dictionary to count the number of times we’ve seen each title, with the keys being the titles and the values for each key an integer, tracking how many times we’ve seen that title:
 
 
