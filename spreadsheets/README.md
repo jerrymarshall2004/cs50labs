@@ -14,15 +14,14 @@ We can download a CSV file from the spreadsheet with “File > Download”, uplo
 
 Python has a package that allows you to open csv files, and incorporate them into a .py file.  
 
-'''
+```
 import csv
-
 with open("CS50 2019 - Lecture 7 - Favorite TV Shows (Responses) - Form Responses 1.csv", "r") as file:
     reader = csv.DictReader(file)
 
     for row in reader:
         print(row["title"])
-'''
+```
 Try creating a file called favorites.py, and running the file.
 
 {% next %}
