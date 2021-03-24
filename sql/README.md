@@ -112,8 +112,6 @@ cur.close()
 
 Write a python program that keeps a database of your favorite songs, ask the user for band name, then song name, then print all of the records.  "Here is a list of your favourite songs: "
 
-{% spoiler "Hint" %}
-In this case you don't want to delete the table if it exists each time, and you don't need to create a new table each time.
-{% endspoiler %}
+
 
 ## Note: I havn't had a chance to write a check/submit for this yet.
