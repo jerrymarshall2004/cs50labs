@@ -120,6 +120,10 @@ And finally, close the data base:
 ```python
 cur.close()
 ```
+## Try Running the File, You Should get a list of the two songs printed to the terminal.
+
+{% next %}
+
 ## Your Turn
 
 Write a python program that keeps a database of your favorite songs, ask the user for band name, then song name, then print all of the records.  "Here is a list of your favourite songs: "
