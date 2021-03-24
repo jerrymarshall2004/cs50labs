@@ -57,10 +57,10 @@ It turns out that, when working with data, we only need four operations:
 
 In SQL, the commands to perform each of these operations are:
 
-- Insert
-- Select
-- Update
-- Delete
+- Insert        General Format => INSERT INTO table_name (Column A, Column B) VALUES (Value A, Value B)
+- Select               for     => SELECT (Column A, Column B) From table_name
+- Update              Syntax   => UPDATE table_name SET Column = new_value WHERE column = value
+- Delete                       => DELETE FROM table_name WHERE Column = Value
 
 {% next % }
 
@@ -108,4 +108,12 @@ And finally, close the data base:
 ```python
 cur.close()
 ```
+## Your Turn
+
+Write a python program that keeps a database of your favorite songs, ask the user for band name, then song name, then print all of the records.  "Here is a list of your favourite songs: "
+
+{% spoiler "Hint" %}
+In this case you don't want to delete the table if it exists each time, and you don't need to create a new table each time.
+{% end spoiler %}
+
 ## Note: I havn't had a chance to write a check/submit for this yet.
