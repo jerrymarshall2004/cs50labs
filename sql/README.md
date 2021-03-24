@@ -48,18 +48,17 @@ SQL is a language that lets us work with a relational database, an application l
 
 It turns out that, when working with data, we only need four operations:
 
-*Create
-*Read
-*Update
-*Delete
+-Create
+-Read
+-Update
+-Delete
 
 In SQL, the commands to perform each of these operations are:
 
-*Insert
-*Select
-*Update
-*Delete
-
+-Insert
+-Select
+-Update
+-Delete
 
 
 ## Note: I havn't had a chance to write a check/submit for this yet.
