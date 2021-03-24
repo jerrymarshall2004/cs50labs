@@ -14,7 +14,7 @@ We can download a CSV file from the spreadsheet with “File > Download”, uplo
 
 Python has a package that allows you to open csv files, and incorporate them into a .py file.  
 
-```{.py}
+```python
 import csv
 with open("favoriteTVShows.csv", "r") as file:
     reader = csv.DictReader(file)
@@ -32,7 +32,7 @@ Maybe we want to do a summary of the number of times people picked a certain TV 
 
 Now, we can use a dictionary to count the number of times we’ve seen each title, with the keys being the titles and the values for each key an integer, tracking how many times we’ve seen that title:
 
-```{.py}
+```python
 import csv
 
 counts = {}
