@@ -16,7 +16,7 @@ Python has a package that allows you to open csv files, and incorporate them int
 
 ```
 import csv
-with open("CS50 2019 - Lecture 7 - Favorite TV Shows (Responses) - Form Responses 1.csv", "r") as file:
+with open("favoriteTVShows.csv", "r") as file:
     reader = csv.DictReader(file)
 
     for row in reader:
@@ -37,7 +37,7 @@ import csv
 
 counts = {}
 
-with open("CS50 2019 - Lecture 7 - Favorite TV Shows (Responses) - Form Responses 1.csv", "r") as file:
+with open("favoriteTVShows.csv", "r") as file:
     reader = csv.DictReader(file)
 
     for row in reader:
