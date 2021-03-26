@@ -100,7 +100,7 @@ Next, Lets insert two rows in our newly made table:
 ```python
 cur.execute('INSERT INTO favoriteSongs (Band, Song) VALUES (?, ?)',
     ('ACDC', 'Thunder Struck'))
-cur.execute('INSERT INTO favoriteSongs (title, plays) VALUES (?, ?)',
+cur.execute('INSERT INTO favoriteSongs (Band, Song) VALUES (?, ?)',
     ('Led Zepplin', 'Highway to Heaven'))
 ```
 The last step is to commit the changes, and write them to the database file:
