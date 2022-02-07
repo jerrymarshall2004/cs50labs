@@ -190,7 +190,7 @@ When your program compiles and passes the style test, you have completed Data Ty
 To submit your code, execute
 
 ```
-submit50 jmichalenko/labchecks/main/dataypes
+submit50 jmichalenko/labchecks/main/datatypes
 ```
 
 Your submission should be graded for corretness and style withing a few minutes on https://submit.cs50.io/
